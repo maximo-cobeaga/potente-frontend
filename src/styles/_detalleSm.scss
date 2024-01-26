@@ -1,0 +1,29 @@
+.detalle-section-sm {
+  .detalle-imagenes-sm {
+    width: 100%;
+    img {
+      object-fit: fill;
+      width: 100%;
+      height: 55vh;
+    }
+  }
+  .detalle-body-sm {
+    margin: 1rem;
+    .ubicacion {
+      font-weight: bold;
+    }
+    .descripcion {
+      text-align: start;
+    }
+    .lista {
+      ul {
+        list-style: none;
+        li {
+          span {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
